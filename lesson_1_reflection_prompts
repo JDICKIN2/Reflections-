@@ -1,0 +1,41 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It helped identify the right and wrong use of code when setting the website
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Easy identification of mistakes between previous documents and 
+    avoidance of going through entire file of code ti identify mistakes
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manual changes allow for logical changes to occure between commits (gits way of version 
+    control). Unlike in google docs where autosave may save versioning where there's no logical change
+    between commits or there's far too track between document versions
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    To account for documents that have dependancies on one another and make it 
+    easier to track changes between files
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You can use git log to draw up commits to describe the logical changes in versioning and use git 
+    diff to easily track the changes between commits highlighted with the colour command used git and use global within 
+    that to apply it across all repositorie
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Version control will make it easy to track down bugs introduced by easily checking out previous versions 
+    without the worry of losing the most current version work additions. Removing this worry will therefore increase confidence
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want ot use git for setting up file repos for ADP and being able to monitor version control between 
+    files I'm creating for the ADP model in case any bugs are introduced into th software
