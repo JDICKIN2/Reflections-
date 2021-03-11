@@ -13,13 +13,29 @@ be committed. When read to commmit, git bundles the entier staging area to a sin
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+The staging area can be used to gather files and therefore specify exactly what changes are to be committed and from this
+identify when we have one commit per logical change submitted
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches could help when needing to make variations to a project for different levels of difficulty or language
+You can use multiple branches to deviate from the master. Branches can help to orgnaise a project especially when sharing it 
+publicly - master brnach, development branch, experimental brnahc where you fully expect a break 
+
 How do the diagrams help you visualize the branch structure?
+
+They help to  identify the paths for different branches and how you would want to access git 
+logs for the relative branch. It also makes it much easier to determine how a project is split up 
+into its working parts and where to access previous commits
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+Merging two branches together combines both parents previous commit branches and you're able to access both branches 
+by running git log with each shown in order of time stamp. Merge helps combine additional files/ projects to the master 
+once complete. It's represented the way it is in the diagram to gighlight that both branches are still accessible, here as coins 
+combined into the master branch and show that this merge forms as the new branch tip 
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
