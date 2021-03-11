@@ -39,3 +39,8 @@ combined into the master branch and show that this merge forms as the new branch
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Gits automatic merging still can't decide which changes to commit when a conflict arises which can be annoying to the user(S) 
+always having to decide which ones to keep and disguard. Nut it does when there isnt conflicts merge automatically saving the user 
+from the laborious job of going through and deciding which files to take from the commits being merge into this new commit to be put 
+into the repo
